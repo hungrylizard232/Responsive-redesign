@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QuickPoses redesign</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    
+
+        <div class="container">
+          <nav class="sidebar">
+            <img src="qp-logo.svg" alt="QuickPoses logo" height=20%/>
+            <img src="patreon-cta-en.png" alt="Patreon image link" width=auto height=8% class="patreon"/>
+            <img src="get app.png" alt="app link" width=auto height=10%/>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Challenges</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" style="color:#EC984A">Timed Practices</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Random Poses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Library</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Tips & Tricks</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Get your QP Certificate!</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Desktop App</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <div class="login-container">
+              <button class="enter-field-email">Email</button>
+              <button class="enter-field-password">Password</button>
+              <div class="login-button-container">
+                <button class="login-button">Log in</button>
+                <a href="#" class="sign-up">Sign up</a>
+              </div>
+              <u>I forget my password!</u>
+              <u>Why should I sign up?</u>
+              
+            </div>
+
+
+          </nav>
+          <div class="main-page">
+            <div class="header">
+              <div class="title-donation">
+                <div class="title">
+                  <h1>QuickPoses</h1>
+                </div>
+                <div class="donation">
+                  <div class="topright">
+                    <!-- referenced from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button -->
+                    <div class="dropdown">
+                      <button class="dropbtn">Offer me a coffee (€3)</button>
+                      <div class="dropdown-content">
+                      <a>or a sandwich (€5)</a>
+                      <a>maybe even lunch (€10)</a>
+                      <a>Quickposes desktop app (€15)</a>
+                      </div>
+                    </div>
+                    <!-- end reference -->
+                    <button class="donate-button">Donate</button>
+                  </div>
+                  <!-- referenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js -->
+                  <div class="hamburger-container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                  <!-- end reference -->
+                </div>
+              </div>
+              <div class="slogan">
+                <h3>Increase your ability to draw any pose</h3>
+              </div>
+            </div>
+
+            <div class="main-content">
+              <div class="timed-practice">
+                <h2>Timed Practice</h2>
+              </div>
+              <div class="library-selection">
+                <img src="library-selection.png" alt="library selection buttons" height=100%/>
+              </div>
+
+              <div class="personalization">
+                
+                  <div class="option-title">Type:</div>
+                  <div class="option-buttons type-button">
+                    <div class="btn-group">
+                      <button class="option-button" style="background-color: #EC984A; color: white;">pose</button>
+                      <button class="option-button">face</button>
+                      <button class="option-button">hands</button>
+                      <button class="option-button">animals</button>
+                      <button class="option-button">landscapes</button>
+                      <button class="option-button">urban</button>
+                    </div>
+                  </div>
+                
+                
+                  <div class="option-title">Gender:</div>
+                  <div class="option-buttons gender-button">
+                    <div class="btn-group">
+                      <button class="option-button" style="background-color: #EC984A; color: white;">all</button>
+                      <button class="option-button">male</button>
+                      <button class="option-button">female</button>
+                    </div>
+                  </div>
+              
+                
+                  <div class="option-title">Clothing:</div>
+                  <div class="option-buttons clothing-button">
+                    <div class="btn-group">
+                      <button class="option-button" style="background-color: #EC984A; color: white;">all</button>
+                      <button class="option-button">nude & partially nude</button>
+                      <button class="option-button">clothes & costumes</button>
+                    </div>
+                  </div>
+               
+                
+                  <div class="option-title interval-title">Interval:</div>
+                  <div class="option-buttons interval-button">
+                    <div class="btn-group">
+                      <button class="option-button" style="background-color: #EC984A; color: white;">300</button>
+                      <button class="option-button">180</button>
+                      <button class="option-button">120</button>
+                      <button class="option-button">90</button>
+                      <button class="option-button">60</button>
+                      <button class="option-button">45</button>
+                      <button class="option-button">30</button>
+                      <button class="option-button">custom</button>
+                    </div>
+                    <p class="note">*Custom intervals higher than 300s or lower than 30s will not count towards your certificate</p>
+                  </div>
+                
+
+                  <div class="option-title">Total Images:</div>
+                  <div class="option-buttons total-images-button">
+                    <div class="btn-group">
+                      <button class="option-button" style="background-color: #EC984A; color: white;">10</button>
+                      <button class="option-button">20</button>
+                      <button class="option-button">30</button>
+                      <button class="option-button">40</button>
+                    </div>
+                  </div>
+                
+
+                  <div class="option-title">Image Direction:</div>
+                  <div class="option-buttons image-dir-button">
+                    <div class="btn-group">
+                      <button class="option-button" style="background-color: #EC984A; color: white;">all</button>
+                      <button class="option-button">horizontal</button>
+                      <button class="option-button">vertical</button>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="get-certificate">
+                <p> Want a QuickPoses certificate?</p>
+                <p> Email:______________</p>
+              </div>
+              <div class="start-drawing">
+                <button class="start-button">Start Drawing!</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+        <script>
+          // referenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
+          function myFunction(x) {
+          x.classList.toggle("change");
+          }
+          // end reference
+    
+          //referenced from https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+          
+          
+          // end reference
+        </script>
+        
+  </body>
+</html>
